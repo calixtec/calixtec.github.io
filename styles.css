@@ -1,0 +1,116 @@
+/* Add this to your existing CSS file or create a new one */
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(40, 40, 40);
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.bar{
+  
+  margin: center;
+  
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.intro{
+  margin-left: 50px;
+  color: rgb(1, 252, 244);
+}
+.title-style{
+  margin-left: 75px;
+  color: rgb(1, 252, 244);
+  
+}
+.header, .title-style, .footer {
+  
+  color: rgb(1, 252, 244);
+  
+  text-align: center;
+}
+
+.header, .title-style {
+  margin-bottom: 20px;
+}
+.left-header{
+  margin-left: 75px;
+  color: rgb(1, 252, 244);
+  
+}
+.left{
+  
+}
+.photo {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 40px auto;
+  border-radius: 1%;
+  border: 2px solid rgb(1, 252, 244);
+}
+
+.ex {
+  
+  line-height: 0 ;
+  text-emphasis-color: rgb(1, 252, 244);
+  text-decoration-line: underline;
+}
+.ex2 {
+  
+  line-height: 0;
+  text-emphasis-color: rgb(1, 252, 244);
+
+}
+
+
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #1bdafc;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  color: #1bdafc;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.button:hover {
+  background-color: #1bdafc;
+  color: white;
+}
+
+.footer {
+  
+}
+
+.centered-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  animation: fade-up 650ms 600ms backwards;
+}
+
+.centered-box p {
+  max-width: 100%;
+  padding: 20px;
+  border: 2px solid rgb(1, 189, 252);
+  border-radius: 20px;
+  text-align: center;
+}
+
+p{
+  margin-left: 150px;
+  margin-right: 150px;
+  color:  rgb(1, 252, 244);
+}
