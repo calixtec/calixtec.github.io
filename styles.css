@@ -11,10 +11,13 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
+.source{
+font-size: 14px;
+color: lightslategray;
+margin-left: 300px;
+}
 .bar{
-  
-  margin: center;
-  
+  margin-left: 270px;
 }
 .container {
   max-width: 800px;
@@ -26,8 +29,8 @@ body {
 }
 .title-style{
   margin-left: 75px;
-  color: rgb(1, 252, 244);
   
+  color: rgb(1, 206, 252);
 }
 .header, .title-style, .footer {
   
@@ -52,10 +55,20 @@ body {
   height: auto;
   display: block;
   margin: 40px auto;
+  margin-bottom: 0px;
   border-radius: 1%;
-  border: 2px solid rgb(1, 252, 244);
+  border: 2px solid rgb(1, 206, 252);
 }
-
+.photo2 {
+width: 500px;
+  height: auto;
+  display: block;
+  margin: 40px auto;
+  margin-bottom: 0px;
+  border-radius: 1%;
+  border: 2px solid rgb(1, 206, 252);
+}
+/* //border: 2px solid rgb(1, 252, 244); */
 .ex {
   
   line-height: 0 ;
@@ -108,9 +121,11 @@ body {
   border-radius: 20px;
   text-align: center;
 }
-
+.ref{
+  color:aquamarine;
+}
 p{
   margin-left: 150px;
   margin-right: 150px;
-  color:  rgb(1, 252, 244);
+  color: rgb(1, 206, 252);
 }
